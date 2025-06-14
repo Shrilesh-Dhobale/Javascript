@@ -1,5 +1,5 @@
 const userinput="42"//As string
-const numberInput=num(userinput)//changed string to number
+const numberInput=Number(userinput)//changed string to number
 
 if(!isNaN(numberInput))
 {
